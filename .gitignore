@@ -1,47 +1,14 @@
-﻿# Python
+﻿# Python/venv
+env/
+.venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Virtual environments
-env/
-venv/
-ENV/
-
-# Environment variables
-*.env
-
-# VS Code
-.vscode/
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
 *.egg-info/
-.installed.cfg
-*.egg
+dist/
+build/
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-
-# Logs
-*.log
+# VS Code / IDE
+.vscode/
+.idea/
