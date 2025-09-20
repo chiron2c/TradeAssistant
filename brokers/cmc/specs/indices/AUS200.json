@@ -1,0 +1,28 @@
+﻿{
+  "market_code": "AUS200",
+  "broker": "cmc",
+  "symbol": "AUS200",
+
+  "price": {
+    "digits": 2,
+    "tick_size": 0.01,
+    "tick_value_per_1lot": 0.25,
+    "contract_size": 25,
+    "point_value_hint": "1.0 index point = AUD 25.00 per lot"
+  },
+
+  "volume": {
+    "min_lot": 0.01,
+    "lot_step": 0.01,
+    "max_lot": 10.0
+  },
+
+  "spread": {
+    "type": "floating",
+    "typical_points": 0
+  },
+
+  "trading_hours_raw": "Quotes: 02:45-24:00; Trades: 02:50-09:30, 10:10-24:00 (Mon-Fri)",
+  "quote_ccy": "AUD",
+  "notes": "From MT4 Specification (CMC). Confirm tick_value via tiny live test."
+}

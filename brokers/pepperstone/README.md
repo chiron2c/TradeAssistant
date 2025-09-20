@@ -1,5 +1,5 @@
 ﻿# PEPPERSTONE — Specs Index  
-Auto-generated on 2025-09-20 15:53.  
+Auto-generated on 2025-09-20 15:59.  
 
 ## Indices
  - **AUS200**  
