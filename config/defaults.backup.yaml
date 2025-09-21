@@ -1,0 +1,26 @@
+# config/defaults.yaml
+symbols_file: output/specs_enriched.csv
+
+risk:
+  starting_equity: 80000        # dollars (or your account currency)
+  risk_per_trade_pct: 0.5       # % of equity risked per trade
+  max_positions: 8
+  default_stop_pips:
+    forex: 100
+    index: 300
+    energy: 300
+    metal: 300
+
+lots:
+  default_min_lot: 0.01
+  default_lot_step: 0.01
+
+filters:
+  include_asset_classes: [forex, index, energy, metal]
+  sessions_required: [session_london, session_newyork]  # [] to disable session filter
+
+withdrawals:
+  monthly:
+    start: 4000
+    target: 20000
+    ramp_months: 24

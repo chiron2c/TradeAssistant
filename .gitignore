@@ -1,14 +1,26 @@
-﻿# Python/venv
+﻿# --- Python / env ---
 env/
 .venv/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 *.egg-info/
 dist/
 build/
 
-# VS Code / IDE
+# --- Run artifacts ---
+data/
+logs/
+output/
+
+# --- Local scratch (not broker specs) ---
+specs/
+
+# --- Editors/OS ---
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
+
+# --- Secrets (example) ---
+config/local*.yaml
+*.secrets.*

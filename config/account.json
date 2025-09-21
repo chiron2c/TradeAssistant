@@ -1,0 +1,20 @@
+﻿{
+    "default_fx_usd_to_account":  1.515152,
+    "brokers":  {
+                    "cmc":  {
+                                "fx_usd_to_account":  1.515152,
+                                "disable_brent":  true
+                            },
+                    "pepperstone":  {
+                                        "fx_usd_to_account":  1.515152,
+                                        "disable_brent":  true
+                                    }
+                },
+    "fx_map_quote_to_account":  {
+                                    "AUD":  1.0,
+                                    "USD":  1.515152,
+                                    "EUR":  1.65,
+                                    "GBP":  1.95,
+                                    "JPY":  0.0105
+                                }
+}

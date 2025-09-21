@@ -1,0 +1,29 @@
+symbols_file: output/specs_enriched.csv
+
+broker: cmc
+
+filters:
+  # Limit by asset class (or remove this line to include everything):
+  include_asset_classes: ["forex", "index", "energy", "metal"]
+
+  # Session requirement options (pick ONE line):
+  # sessions_required: ["session_london", "session_newyork"]   # fewer restrictions
+  sessions_required: []                                        # no session restriction
+
+lots:
+  default_min_lot: 0.01
+  default_lot_step: 0.01
+
+risk:
+  starting_equity: 80000
+  risk_per_trade_pct: 1.25
+  max_positions: 8
+  default_stop_pips:
+    forex: 100
+    index: 300
+    energy: 50
+    metal: 300
+
+portfolio:
+  per_symbol_max_open: 1   # 1 means no pyramiding; set >1 to allow multiple legs
+  allow_add_to_open: false # if true and you have capacity, will allow increasing an open position

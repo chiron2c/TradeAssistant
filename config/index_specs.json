@@ -1,0 +1,12 @@
+{
+  "cmc": {
+    "US30":   { "pip_size": 1.0, "pip_value_quote_per_std_lot": 5.0, "min_lot": 0.01, "lot_step": 0.01 },
+    "NAS100": { "pip_size": 1.0, "pip_value_quote_per_std_lot": null, "min_lot": 0.01, "lot_step": 0.01 },
+    "SPX500": { "pip_size": 1.0, "pip_value_quote_per_std_lot": null, "min_lot": 0.01, "lot_step": 0.01 }
+  },
+  "pepperstone": {
+    "US30":   { "pip_size": 1.0, "pip_value_quote_per_std_lot": 1.0, "min_lot": 0.10, "lot_step": 0.10 },
+    "NAS100": { "pip_size": 1.0, "pip_value_quote_per_std_lot": null, "min_lot": 0.10, "lot_step": 0.10 },
+    "SPX500": { "pip_size": 1.0, "pip_value_quote_per_std_lot": null, "min_lot": 0.10, "lot_step": 0.10 }
+  }
+}
