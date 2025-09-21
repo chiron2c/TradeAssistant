@@ -1,6 +1,6 @@
 ﻿# 📂 Trade Assistant — Market Specs Index  
 
-Auto-generated from **brokers/** on 2025-09-21 10:34.  
+Auto-generated from **brokers/** on 2025-09-21 10:58.  
 Each spec includes broker symbol, price/volume, spread, swaps, trading hours, and notes.  
 
 ## 📊 Current Coverage  
@@ -15,6 +15,9 @@ Each spec includes broker symbol, price/volume, spread, swaps, trading hours, an
  - **SPX500**  
    - CMC → `.\brokers\cmc\specs\indices\SPX500.json`  (symbol: `SPX500`)
    - PEPPERSTONE → `.\brokers\pepperstone\specs\indices\SPX500.json`  (symbol: `US500.a`)
+ - **US30**  
+   - CMC → `.\brokers\cmc\specs\indices\US30.json`  (symbol: `US30`)
+   - PEPPERSTONE → `.\brokers\pepperstone\specs\indices\US30.json`  (symbol: `US30.a`)
 
 ### Commodities
  - **WTI**  

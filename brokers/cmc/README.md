@@ -1,5 +1,5 @@
 ﻿# CMC — Specs Index  
-Auto-generated on 2025-09-21 10:34.  
+Auto-generated on 2025-09-21 10:58.  
 
 ## Indices
  - **AUS200**  
@@ -8,6 +8,8 @@ Auto-generated on 2025-09-21 10:34.
    - `.\brokers\cmc\specs\indices\NAS100.json`  (symbol: `NDAQ100`)
  - **SPX500**  
    - `.\brokers\cmc\specs\indices\SPX500.json`  (symbol: `SPX500`)
+ - **US30**  
+   - `.\brokers\cmc\specs\indices\US30.json`  (symbol: `US30`)
 
 ## Commodities
  - **WTI**  

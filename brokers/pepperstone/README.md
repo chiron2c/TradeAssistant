@@ -1,5 +1,5 @@
 ﻿# PEPPERSTONE — Specs Index  
-Auto-generated on 2025-09-21 10:34.  
+Auto-generated on 2025-09-21 10:58.  
 
 ## Indices
  - **AUS200**  
@@ -8,6 +8,8 @@ Auto-generated on 2025-09-21 10:34.
    - `.\brokers\pepperstone\specs\indices\NAS100.json`  (symbol: `NAS100.a`)
  - **SPX500**  
    - `.\brokers\pepperstone\specs\indices\SPX500.json`  (symbol: `US500.a`)
+ - **US30**  
+   - `.\brokers\pepperstone\specs\indices\US30.json`  (symbol: `US30.a`)
 
 ## Commodities
  - **WTI**  
