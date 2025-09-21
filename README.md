@@ -1,6 +1,6 @@
 ﻿# 📂 Trade Assistant — Market Specs Index  
 
-Auto-generated from **brokers/** on 2025-09-21 10:58.  
+Auto-generated from **brokers/** on 2025-09-21 11:11.  
 Each spec includes broker symbol, price/volume, spread, swaps, trading hours, and notes.  
 
 ## 📊 Current Coverage  

@@ -1,0 +1,3 @@
+broker,category,market_code,symbol,digits,tick_size,tick_value_per_1lot,contract_size,min_lot,lot_step,max_lot,typical_points,swaps_type,swap_long,swap_short,triple_day,trading_hours_raw,quote_ccy,notes
+cmc,indices,US30,US30,2,0.01,0.05,5,0.01,0.01,10,0,in points,-999,-999,Wednesday,"SunFri Quotes/Trades: 01:00-24:00 (per MT4 spec)",USD,"From CSV importer. Tick value implied by contract size (verify if needed)."
+pepperstone,indices,US30,US30.a,1,0.10,0.10,1,0.10,0.10,100,0,in percentage terms,-6.64,1.64,Wednesday,"SunFri Quotes/Trades: 01:00-23:59 (per MT4 spec)",USD,"From CSV importer. Per-point value = $1.00 (verify with a tiny live test)."
