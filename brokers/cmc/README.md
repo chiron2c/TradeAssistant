@@ -1,5 +1,5 @@
 ﻿# CMC — Specs Index  
-Auto-generated on 2025-09-21 09:47.  
+Auto-generated on 2025-09-21 10:34.  
 
 ## Indices
  - **AUS200**  
